@@ -1,0 +1,22 @@
+div {
+	border: solid 1px black;
+	width:200px;
+	height:500px;
+	-webkit-box-shadow: -3px 3px 16px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: -3px 3px 16px 5px rgba(0,0,0,0.75);
+	box-shadow: -3px 3px 16px 5px rgba(0,0,0,0.75);
+	margin:10px;
+	float:left;
+}
+div > * {
+	margin:10px;
+	
+}
+#taskList {
+	
+	margin:10px;
+}
+#couter {
+	color:red;
+	font-size:30px;
+}
