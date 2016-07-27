@@ -11,13 +11,16 @@ document.addEventListener('DOMContentLoaded', function (){
 	var nr=0;
 				creatLi.innerHTML= task.value;
 				creatLi.style.border = '2px solid black';
-				creatLi.style.margin = '5px';
+				creatLi.style.margin = '20px';
 				creatLi.style.display = 'block';
 				creatLi.style.position = 'relative';
+				creatLi.style.verticalAlign = 'top';
+				creatLi.style.top = '20px';
 				creatLi.style.textAlign = 'center';
 				creatLi.style.lineHeight = '20px';
 				creatLi.style.width = '150px';
 				creatLi.style.height = '200px';
+				
 	
 	var creatBatton = document.createElement('button');
 				creatBatton.innerHTML='Done';
@@ -67,6 +70,7 @@ document.addEventListener('DOMContentLoaded', function (){
 					for (var i=0; i<ul.children.length; i++) {
 						if (ul.children[i].className=='dele') {
 							ul.removeChild(ul.children[i]);
+							
 						}
 					}
 				})	

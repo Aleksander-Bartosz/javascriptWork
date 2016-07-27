@@ -20,3 +20,6 @@ div > * {
 	color:red;
 	font-size:30px;
 }
+span {
+	width:100%;
+}
